@@ -6,8 +6,8 @@
         25000,
         400
       ],
-      "tensorPath": "https://media.githubusercontent.com/media/Asrst/telugu_nlp/master/lang_models/encodings/ulmfit/vectors.tsv",
-      "metadataPath":"https://media.githubusercontent.com/media/Asrst/telugu_nlp/master/lang_models/encodings/ulmfit/metadata.tsv"
+      "tensorPath": "https://raw.githubusercontent.com/Asrst/telugu_nlp/master/lang_models/encodings/ulmfit/vectors.tsv",
+      "metadataPath":"https://raw.githubusercontent.com/Asrst/telugu_nlp/master/lang_models/encodings/ulmfit/metadata.tsv"
     }
   ]
 }
