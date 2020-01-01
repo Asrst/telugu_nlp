@@ -1,7 +1,7 @@
 
 ## NLP for Telugu
 
-[ULMFit Telugu Encodings Projections](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/Asrst/telugu/master/configs/ulmfit_encodings_projection.json){:target="_blank"}
+[ULMFit Telugu Encodings Projections]( https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/Asrst/telugu_nlp/master/configs/ulmfit_encodings_projection.json )
 
 
 ### Features:
@@ -27,6 +27,6 @@ code tested on following versions, however should work with pytorch v1.0+ , fast
 
 ### citations & references
 
-- sentencepiece
-- fastai
-- nlp-for-marathi
+- [sentencepiece](https://github.com/google/sentencepiece)
+- [fastai](https://www.fast.ai/)
+- [nlp-for-marathi](https://github.com/goru001/nlp-for-marathi)
