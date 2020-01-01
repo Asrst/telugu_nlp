@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "Telugu ULMFit Embeddings",
+      "tensorShape": [
+        25000,
+        400
+      ],
+      "tensorPath": "https://media.githubusercontent.com/media/Asrst/telugu_nlp/master/lang_models/encodings/ulmfit/vectors.tsv",
+      "metadataPath":"https://media.githubusercontent.com/media/Asrst/telugu_nlp/master/lang_models/encodings/ulmfit/metadata.tsv"
+    }
+  ]
+}
