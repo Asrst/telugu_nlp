@@ -12,6 +12,9 @@
 ##### Language Models
 - ULMFit trained on Telugu Wikipedia data of nearly 90K articles & its 400 dimensional word vector Encodings for 25000 most frequent vocab.
 
+##### Classification
+- created the eenadu newspaper dataset of around 20K articles constituting of 5 classes. With finetuned language model encodings, the classification accuracy is 95%. 
+
 ### Requirements:
 
 code tested on following versions, however should work with pytorch v1.0+ , fastai v1.0+ , python v3.5+
