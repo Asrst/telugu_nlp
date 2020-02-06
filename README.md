@@ -11,16 +11,17 @@
 
 ##### Tokenizers
 - Sentencepiece tokenizer trained on Telugu Wikipedia data of nearly 90K articles.
-- [download telugu sentencepiece tokenizer](https://www.kaggleusercontent.com/kf/26479363/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..-BXoVOeJA2JGUuZyUbBY3A.zsCX_eO0zC6yPbX3of4K3RgHaHC8S4RcMRGw14Kriv6v9fAljDFXSTLzrGuAY4PHzRm5R_qZggR3qRK3oreuuzLHxJ2cs4o_riLpGZdp6JIku-UMw48zhIqysi5N4I_T4vcsDA2IKESiVJxLWkzpjqLBUy50An416GBJBZR0GbM.9trJ6REXR4h_I-S6Hrf_5g/telugu_tok.model)
-- [download telugu sentencepiece vocab](https://www.kaggleusercontent.com/kf/26479363/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..57bZ3zui1_YFfsEH-IC6cQ.ZGbpfef3YRrgKKZb8sM9dOQZyXgqViI5lzEqOpjTjkfdmDsmr4h16iujIKIk6gKL8FIVGeFKAzGslTEsMIwaTav5nJUFzblruvxDYZQZd6KZFWxdHNsia15F48mx60pF9e1O2_v5qaUdZBImD4jBdrwfOLjE1KIfshftA6KvLI0.TY4TDSoRa2GhdLjx3aiCGg/telugu_tok.vocab)
+- [telugu sentencepiece tokenizer](https://www.kaggleusercontent.com/kf/26479363/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..-BXoVOeJA2JGUuZyUbBY3A.zsCX_eO0zC6yPbX3of4K3RgHaHC8S4RcMRGw14Kriv6v9fAljDFXSTLzrGuAY4PHzRm5R_qZggR3qRK3oreuuzLHxJ2cs4o_riLpGZdp6JIku-UMw48zhIqysi5N4I_T4vcsDA2IKESiVJxLWkzpjqLBUy50An416GBJBZR0GbM.9trJ6REXR4h_I-S6Hrf_5g/telugu_tok.model)
+- [telugu sentencepiece vocab](https://www.kaggleusercontent.com/kf/26479363/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..57bZ3zui1_YFfsEH-IC6cQ.ZGbpfef3YRrgKKZb8sM9dOQZyXgqViI5lzEqOpjTjkfdmDsmr4h16iujIKIk6gKL8FIVGeFKAzGslTEsMIwaTav5nJUFzblruvxDYZQZd6KZFWxdHNsia15F48mx60pF9e1O2_v5qaUdZBImD4jBdrwfOLjE1KIfshftA6KvLI0.TY4TDSoRa2GhdLjx3aiCGg/telugu_tok.vocab)
 
 ##### Language Models
 - ULMFit trained on Telugu Wikipedia data of nearly 90K articles & its 400 dimensional word vector Encodings for 25000 most frequent vocab.json)
-- [download telugu language model (fastai-awdlstm)](https://www.kaggleusercontent.com/kf/27942526/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..eCTy6WnQCV5x3Kx6xOVcFw.iNiic9H0pyUGenMQJvB5ytsckd1sugreGMnsKC9jJenNlt1Uu1slFHgeMb-M4usW1UgN8MmhorxgIjTk6bQMGUUhZchRxy7FjDJoO2jmqRSnuF5kYB9uEOP5yLGhHk5gLz5ohK-kaslVgpPkI14V9Q.JUalOHl2WD0HeH_sWwo04g/export.pkl)
+- [telugu language model (fastai-awdlstm)](https://www.kaggleusercontent.com/kf/27942526/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..eCTy6WnQCV5x3Kx6xOVcFw.iNiic9H0pyUGenMQJvB5ytsckd1sugreGMnsKC9jJenNlt1Uu1slFHgeMb-M4usW1UgN8MmhorxgIjTk6bQMGUUhZchRxy7FjDJoO2jmqRSnuF5kYB9uEOP5yLGhHk5gLz5ohK-kaslVgpPkI14V9Q.JUalOHl2WD0HeH_sWwo04g/export.pkl)
 - for other intermediate training files, refer the kaggle kernel [telugu LM (fastai-awdlstm)](https://www.kaggle.com/asrsaiteja/telugu-language-model/output)
 
 ##### Classification
-- created the eenadu newspaper dataset of around 20K articles constituting of 5 classes. With finetuned language model encodings, the classification accuracy is 95%.
+- created the Eenaadu newspaper dataset of around 20K articles constituting of 5 classes. With finetuned language model encodings, the classification accuracy is 95%.
+- [classification model on eenaadu news data (5 classes)](https://www.kaggleusercontent.com/kf/27966237/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..BIRG2gkUI9-E6SNUd1TsMQ.h28q1wBvvhOHPpIZBEX-kuogFnEGMPa-o2G0h9GJWhB6EE6sjQ7uwH9JBa_aTLAqGuQIYJ9ujdO2IE8j9rqx8Hy7A6pUu5UPO1-49Z7vmTWNFxKzw8bgX-DQZIZn6DzLTdPxwF2l2uOSUMUJhDCiJhsk1wFl1wTSn42W8ZajzT4.YEABHar2HOD0yXNZh89xQQ/models/final_cls.pth)
 
 ### Requirements:
 
